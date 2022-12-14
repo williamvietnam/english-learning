@@ -1,12 +1,10 @@
-package com.base.mvvm.core.adapter
+package com.nbgsoftware.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
-import android.view.ViewGroup
 import androidx.annotation.LayoutRes
-import androidx.databinding.DataBindingUtil
-import androidx.databinding.ViewDataBinding
 import androidx.recyclerview.widget.RecyclerView
+import androidx.viewbinding.ViewBinding
 
 abstract class BaseViewAdapter<T>(context: Context, private val mCollection: List<T>?) :
     RecyclerView.Adapter<BaseViewAdapter.BindingViewHolder<T>>() {
@@ -22,12 +20,6 @@ abstract class BaseViewAdapter<T>(context: Context, private val mCollection: Lis
         holder.bindData(item)
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BindingViewHolder<T> {
-        return BindingViewHolder(
-            DataBindingUtil.inflate(mLayoutInflater, layoutId(), parent, false),
-            onItemClickListener
-        )
-    }
 
     override fun getItemCount(): Int {
         if (mCollection == null) {
@@ -44,7 +36,7 @@ abstract class BaseViewAdapter<T>(context: Context, private val mCollection: Lis
     protected abstract fun layoutId(): Int
 
     class BindingViewHolder<T>(
-        val binding: ViewDataBinding,
+        val binding: ViewBinding,
         onItemClickListener: OnItemClickListener? = null
     ) :
         RecyclerView.ViewHolder(binding.root) {
@@ -56,8 +48,7 @@ abstract class BaseViewAdapter<T>(context: Context, private val mCollection: Lis
         }
 
         fun bindData(item: T) {
-            binding.setVariable(BR.viewModel, item)
-            binding.executePendingBindings()
+
         }
     }
 }

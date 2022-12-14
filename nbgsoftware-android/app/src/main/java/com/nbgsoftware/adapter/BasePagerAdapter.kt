@@ -1,4 +1,4 @@
-package com.base.mvvm.core.adapter
+package com.nbgsoftware.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager

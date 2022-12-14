@@ -1,4 +1,4 @@
-package com.base.mvvm.core.adapter
+package com.nbgsoftware.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -10,8 +10,8 @@ import androidx.annotation.NonNull
 import androidx.annotation.Nullable
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
-import com.base.mvvm.databinding.ItemListHeaderBinding
-import com.base.mvvm.databinding.ItemLoadMoreBinding
+import com.nbgsoftware.databinding.ItemListHeaderBinding
+import com.nbgsoftware.databinding.ItemLoadMoreBinding
 
 abstract class BaseAdapter<T>(activityContext: AppCompatActivity) :
     RecyclerView.Adapter<BaseViewHolder>() {
