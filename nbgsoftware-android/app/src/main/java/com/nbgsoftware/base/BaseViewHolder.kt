@@ -1,4 +1,4 @@
-package com.base.mvvm.core.base
+package com.nbgsoftware.base
 
 import android.view.View
 

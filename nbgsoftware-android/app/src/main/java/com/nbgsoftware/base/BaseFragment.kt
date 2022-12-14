@@ -1,31 +1,40 @@
-package com.base.mvvm.core.base
+package com.nbgsoftware.base
 
 import android.os.Bundle
+import android.view.LayoutInflater
 import android.view.View
+import android.view.ViewGroup
 import androidx.annotation.LayoutRes
 import androidx.annotation.StringRes
-import androidx.databinding.DataBindingUtil
-import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.Fragment
-import com.base.mvvm.R
+import androidx.viewbinding.ViewBinding
 import com.base.mvvm.core.utilities.dialog.BaseDialog
 
 /**
  * Author: William Giang Nguyen | 8/7/2022
  * */
-abstract class BaseFragment<BD : ViewDataBinding>(
+abstract class BaseFragment<VB : ViewBinding>(
     @LayoutRes id: Int
 ) : Fragment(id) {
 
-    private var _binding: BD? = null
-    protected val binding: BD
+    private var _binding: VB? = null
+    protected val binding: VB
         get() = _binding
             ?: throw IllegalStateException("Cannot access view after view destroyed or before view creation")
 
+    abstract fun createViewBinding(): VB
+
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        _binding = createViewBinding()
+        return binding.root
+    }
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        _binding = DataBindingUtil.bind(view)
-        _binding?.lifecycleOwner = viewLifecycleOwner
 
         if (savedInstanceState == null) {
             initView(savedInstanceState)
@@ -68,7 +77,6 @@ abstract class BaseFragment<BD : ViewDataBinding>(
     }
 
     override fun onDestroyView() {
-        _binding?.unbind()
         _binding = null
         super.onDestroyView()
     }
@@ -88,14 +96,14 @@ abstract class BaseFragment<BD : ViewDataBinding>(
         BaseDialog(requireContext())
             .setMessage(message)
             .setCancelable(false)
-            .setPositiveButton(R.string.ok, onPositive)
+            .setPositiveButton("Ok", onPositive)
             .show()
     }
 
     fun showAlertDialog(@StringRes message: Int) {
         BaseDialog(requireContext())
             .setMessage(message)
-            .setPositiveButton(R.string.ok, null)
+            .setPositiveButton("OK", null)
             .show()
     }
 
@@ -106,9 +114,8 @@ abstract class BaseFragment<BD : ViewDataBinding>(
     ) {
         BaseDialog(requireContext())
             .setMessage(message)
-            .setPositiveButton(R.string.ok, onPositive)
-            .setNegativeButton(R.string.cancel, onNegative)
+            .setPositiveButton("OK", onPositive)
+            .setNegativeButton("Cancel", onNegative)
             .show()
     }
-
 }

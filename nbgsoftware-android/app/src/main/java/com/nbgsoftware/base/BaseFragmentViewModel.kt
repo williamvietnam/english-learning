@@ -1,18 +1,18 @@
-package com.base.mvvm.core.base
+package com.nbgsoftware.base
 
 import android.os.Bundle
 import android.text.TextUtils
 import androidx.annotation.LayoutRes
-import androidx.databinding.ViewDataBinding
+import androidx.viewbinding.ViewBinding
 
 /**
  * Author: William Giang Nguyen | 8/7/2022
  * */
 abstract class BaseFragmentViewModel<
-        BD : ViewDataBinding,
+        VB : ViewBinding,
         VM : BaseViewModel>(
     @LayoutRes id: Int
-) : BaseFragment<BD>(id) {
+) : BaseFragment<VB>(id) {
 
     private lateinit var viewModel: VM
 

@@ -1,8 +1,7 @@
-package com.base.mvvm.core.base
+package com.nbgsoftware.base
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.base.mvvm.R
 import com.base.mvvm.core.data.network.models.responses.BaseResponse
 import com.base.mvvm.core.data.network.models.responses.ErrorResponse
 import com.base.mvvm.core.utilities.SingleLiveEvent
@@ -55,7 +54,7 @@ abstract class BaseViewModel : ViewModel() {
                 messageError.postValue(throwable.message)
             }
         } else {
-            messageError.postValue(R.string.not_connected_internet)
+            messageError.postValue("Not connect internet")
         }
 
     }

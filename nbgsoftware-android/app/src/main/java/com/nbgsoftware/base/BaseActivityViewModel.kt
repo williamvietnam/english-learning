@@ -1,13 +1,13 @@
-package com.base.mvvm.core.base
+package com.nbgsoftware.base
 
 import android.os.Bundle
-import androidx.databinding.ViewDataBinding
+import androidx.viewbinding.ViewBinding
 
 /**
  * Author: William Giang Nguyen | 8/7/2022
  * */
-abstract class BaseActivityViewModel<BD : ViewDataBinding, VM : BaseViewModel> :
-    BaseActivity<BD>() {
+abstract class BaseActivityViewModel<VB : ViewBinding, VM : BaseViewModel> :
+    BaseActivity<VB>() {
 
     private lateinit var viewModel: VM
 
@@ -18,5 +18,4 @@ abstract class BaseActivityViewModel<BD : ViewDataBinding, VM : BaseViewModel> :
 
         viewModel = getVM()
     }
-
 }
