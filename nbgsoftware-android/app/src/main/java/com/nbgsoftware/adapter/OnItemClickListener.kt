@@ -1,4 +1,4 @@
-package com.base.mvvm.core.adapter
+package com.nbgsoftware.adapter
 
 /**
  * Author: William Giang Nguyen | 8/7/2022
