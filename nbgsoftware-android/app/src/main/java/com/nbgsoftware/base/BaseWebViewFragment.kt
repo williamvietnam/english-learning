@@ -1,19 +1,19 @@
-package com.base.mvvm.core.base
+package com.nbgsoftware.base
 
 import android.graphics.Bitmap
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.annotation.LayoutRes
-import androidx.databinding.ViewDataBinding
+import androidx.viewbinding.ViewBinding
 
 /**
  * Author: William Giang Nguyen | 8/7/2022
  * */
 abstract class BaseWebViewFragment<
-        BD : ViewDataBinding,
+        VB : ViewBinding,
         VM : BaseViewModel>(
     @LayoutRes id: Int
-) : SaveViewBaseFragment<BD, VM>(id) {
+) : SaveViewBaseFragment<VB, VM>(id) {
 
     fun WebView.loadData(url: String) {
         webViewClient = object : WebViewClient() {

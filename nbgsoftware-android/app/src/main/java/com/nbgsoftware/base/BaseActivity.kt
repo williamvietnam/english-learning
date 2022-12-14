@@ -1,4 +1,4 @@
-package com.base.mvvm.core.base
+package com.nbgsoftware.base
 
 import android.content.Context
 import android.graphics.Rect
@@ -6,36 +6,31 @@ import android.os.Bundle
 import android.view.MotionEvent
 import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
-import androidx.annotation.LayoutRes
 import androidx.appcompat.app.AppCompatActivity
-import androidx.databinding.DataBindingUtil
-import androidx.databinding.ViewDataBinding
-import com.base.mvvm.R
+import androidx.viewbinding.ViewBinding
 import com.base.mvvm.core.utilities.dialog.BaseDialog
 import com.base.mvvm.core.utilities.dialog.LoadingDialog
 import timber.log.Timber
-import java.lang.ref.WeakReference
 
 /**
  * Author: William Giang Nguyen | 8/7/2022
  * */
-abstract class BaseActivity<BD : ViewDataBinding> : AppCompatActivity() {
+abstract class BaseActivity<VB : ViewBinding> : AppCompatActivity() {
 
-    private var _binding: BD? = null
-    val binding: BD get() = _binding!!
+    private var _binding: VB? = null
+    val binding: VB get() = _binding!!
 
-    @get: LayoutRes
-    abstract val layoutId: Int
+    abstract fun createViewBinding(): VB
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        _binding = DataBindingUtil.setContentView(WeakReference(this).get()!!, layoutId)
-        _binding?.lifecycleOwner = this
+        _binding = createViewBinding()
+
+        setContentView(binding.root)
 
     }
 
     override fun onDestroy() {
-        _binding?.unbind()
         _binding = null
         LoadingDialog.getInstance(this)?.destroyLoadingDialog()
         super.onDestroy()
@@ -74,9 +69,6 @@ abstract class BaseActivity<BD : ViewDataBinding> : AppCompatActivity() {
     }
 
     private fun showAlertDialog(message: String) {
-        BaseDialog(this)
-            .setMessage(message)
-            .setPositiveButton(R.string.ok, null)
-            .show()
+        BaseDialog(this).setMessage(message).setPositiveButton("OK", null).show()
     }
 }

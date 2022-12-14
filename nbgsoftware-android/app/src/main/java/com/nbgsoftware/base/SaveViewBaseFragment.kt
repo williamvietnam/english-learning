@@ -1,11 +1,11 @@
-package com.base.mvvm.core.base
+package com.nbgsoftware.base
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.LayoutRes
-import androidx.databinding.ViewDataBinding
+import androidx.viewbinding.ViewBinding
 
 /**
  * Author: William Giang Nguyen | 8/7/2022
@@ -13,10 +13,10 @@ import androidx.databinding.ViewDataBinding
  * Use for tab screen, webView, google map...
  */
 abstract class SaveViewBaseFragment<
-        BD : ViewDataBinding,
+        VB : ViewBinding,
         VM : BaseViewModel>(
     @LayoutRes id: Int
-) : BaseFragmentViewModel<BD, VM>(id) {
+) : BaseFragmentViewModel<VB, VM>(id) {
 
     private var mContainerView: View? = null
 
