@@ -1,4 +1,4 @@
-package com.base.mvvm.core.navigationComponent
+package com.nbgsoftware.navigationComponent
 
 import android.os.Bundle
 import androidx.annotation.IdRes

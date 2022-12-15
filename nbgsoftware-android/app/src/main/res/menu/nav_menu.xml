@@ -2,13 +2,13 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/homeFragment"
-        android:contentDescription="@string/home"
+        android:contentDescription="Home"
         android:icon="@drawable/ic_home"
-        android:title="@string/home" />
+        android:title="Home" />
 
     <item
         android:id="@+id/authorFragment"
-        android:contentDescription="@string/author"
+        android:contentDescription="Author"
         android:icon="@drawable/ic_person"
-        android:title="@string/author" />
+        android:title="Author" />
 </menu>

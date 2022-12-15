@@ -1,4 +1,4 @@
-package com.base.mvvm.core.utilities.statusBar
+package com.nbgsoftware.utilities.statusBar
 
 import android.animation.ValueAnimator
 import android.app.Activity

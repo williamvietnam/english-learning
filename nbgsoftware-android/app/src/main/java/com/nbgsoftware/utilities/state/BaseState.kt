@@ -1,4 +1,4 @@
-package com.base.mvvm.core.utilities.state
+package com.nbgsoftware.utilities.state
 
 /**
  * Author: William Giang Nguyen | 8/7/2022

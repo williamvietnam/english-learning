@@ -2,7 +2,7 @@
 
 package androidx.recyclerview.widget
 
-import com.base.mvvm.core.utilities.prefetcher.PrefetchRecycledViewPool
+import com.nbgsoftware.utilities.prefetcher.PrefetchRecycledViewPool
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 

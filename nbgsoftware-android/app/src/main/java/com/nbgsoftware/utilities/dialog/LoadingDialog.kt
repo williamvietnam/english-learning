@@ -1,4 +1,4 @@
-package com.base.mvvm.core.utilities.dialog
+package com.nbgsoftware.utilities.dialog
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -7,7 +7,7 @@ import android.content.Context
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.view.LayoutInflater
-import com.base.mvvm.R
+import com.nbgsoftware.R
 import java.lang.ref.WeakReference
 
 /**

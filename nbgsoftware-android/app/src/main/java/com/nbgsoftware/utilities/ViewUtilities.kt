@@ -1,4 +1,4 @@
-package com.base.mvvm.core.utilities
+package com.nbgsoftware.utilities
 
 import android.app.Activity
 import android.content.Context
@@ -18,9 +18,9 @@ import androidx.annotation.ColorRes
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager.widget.ViewPager
-import com.base.mvvm.R
-import com.base.mvvm.core.utilities.Constants.DURATION_TIME_CLICKABLE
-import com.base.mvvm.core.utilities.ViewUtils.lastClick
+import com.nbgsoftware.R
+import com.nbgsoftware.utilities.Constants.DURATION_TIME_CLICKABLE
+import com.nbgsoftware.utilities.ViewUtils.lastClick
 
 /**
  * Author: William Giang Nguyen | 8/7/2022
@@ -65,10 +65,10 @@ fun TextView.disableCopyPaste() {
 
 fun ImageView.enableView(isEnable: Boolean) {
     isEnabled = if (isEnable) {
-        setColorFilter(context.getColorCompat(R.color.color_button_common_blue))
+        setColorFilter(context.getColorCompat(R.color.black))
         true
     } else {
-        setColorFilter(context.getColorCompat(R.color.background_color_gray))
+        setColorFilter(context.getColorCompat(R.color.black))
         false
     }
 }

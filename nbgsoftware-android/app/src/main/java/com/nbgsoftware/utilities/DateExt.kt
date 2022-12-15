@@ -1,4 +1,4 @@
-package com.base.mvvm.core.utilities
+package com.nbgsoftware.utilities
 
 import java.text.ParseException
 import java.text.SimpleDateFormat
