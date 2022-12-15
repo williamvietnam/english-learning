@@ -4,5 +4,5 @@
 
     <corners android:radius="20dp" />
 
-    <solid android:color="@color/color_button_common_blue" />
+    <solid android:color="@color/cardview_dark_background" />
 </shape>

@@ -2,7 +2,7 @@ package com.base.mvvm.core.data.preferences
 
 import android.content.Context
 import android.content.SharedPreferences
-import com.base.mvvm.core.utilities.Constants
+import com.nbgsoftware.utilities.Constants
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
 import javax.inject.Singleton

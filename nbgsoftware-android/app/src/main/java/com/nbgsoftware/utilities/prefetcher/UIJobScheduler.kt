@@ -1,4 +1,4 @@
-package com.base.mvvm.core.utilities.prefetcher
+package com.nbgsoftware.utilities.prefetcher
 
 import android.os.Handler
 import android.os.Looper

@@ -1,4 +1,4 @@
-package com.base.mvvm.core.utilities
+package com.nbgsoftware.utilities
 
 import android.app.Activity
 import android.content.ContentValues
@@ -21,8 +21,6 @@ import android.util.Patterns
 import android.view.View
 import android.view.WindowManager
 import android.view.inputmethod.InputMethodManager
-import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.ProcessLifecycleOwner
 
 /**
  * Author: William Giang Nguyen | 8/7/2022
@@ -43,14 +41,6 @@ class DeviceUtilities {
                 }
             }
             return map
-        }
-
-        fun isAppVisible(): Boolean {
-            return ProcessLifecycleOwner
-                .get()
-                .lifecycle
-                .currentState
-                .isAtLeast(Lifecycle.State.STARTED)
         }
 
         fun isHasCameraHardware(context: Context): Boolean {
