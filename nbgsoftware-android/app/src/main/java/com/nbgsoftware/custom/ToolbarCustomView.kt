@@ -1,4 +1,4 @@
-package com.base.mvvm.core.custom
+package com.nbgsoftware.custom
 
 import android.content.Context
 import android.content.res.TypedArray
@@ -6,8 +6,8 @@ import android.graphics.drawable.Drawable
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.FrameLayout
-import com.base.mvvm.R
-import com.base.mvvm.databinding.ToolBarCustomViewBinding
+import com.nbgsoftware.R
+import com.nbgsoftware.databinding.ToolBarCustomViewBinding
 
 class ToolbarCustomView : FrameLayout {
     private lateinit var binding: ToolBarCustomViewBinding

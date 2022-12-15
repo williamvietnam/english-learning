@@ -1,4 +1,4 @@
-package com.base.mvvm.core.utilities
+package com.nbgsoftware.utilities
 
 /**
  * Author: William Giang Nguyen | 8/7/2022

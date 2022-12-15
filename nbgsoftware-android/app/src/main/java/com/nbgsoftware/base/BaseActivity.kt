@@ -8,8 +8,8 @@ import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewbinding.ViewBinding
-import com.base.mvvm.core.utilities.dialog.BaseDialog
-import com.base.mvvm.core.utilities.dialog.LoadingDialog
+import com.nbgsoftware.utilities.dialog.BaseDialog
+import com.nbgsoftware.utilities.dialog.LoadingDialog
 import timber.log.Timber
 
 /**

@@ -7,7 +7,7 @@ import com.base.mvvm.core.data.network.ApiServices
 import com.base.mvvm.core.data.network.AuthenticationApiServices
 import com.base.mvvm.core.data.network.utilities.NetworkInterceptor
 import com.base.mvvm.core.data.preferences.PreferencesHelper
-import com.base.mvvm.core.utilities.Constants
+import com.nbgsoftware.utilities.Constants
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import dagger.Module

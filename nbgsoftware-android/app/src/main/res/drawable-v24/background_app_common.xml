@@ -4,5 +4,5 @@
     <!--        android:startColor="#4356B4"-->
     <!--        android:endColor="#3DCFCF"/>-->
 
-    <solid android:color="@color/end_color_btn_common" />
+    <solid android:color="@color/black" />
 </shape>

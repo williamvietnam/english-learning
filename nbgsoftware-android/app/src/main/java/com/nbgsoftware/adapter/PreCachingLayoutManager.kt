@@ -1,4 +1,4 @@
-package com.base.mvvm.core.adapter
+package com.nbgsoftware.adapter
 
 import android.content.Context
 import androidx.recyclerview.widget.LinearLayoutManager

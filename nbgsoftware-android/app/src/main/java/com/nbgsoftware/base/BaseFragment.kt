@@ -8,7 +8,7 @@ import androidx.annotation.LayoutRes
 import androidx.annotation.StringRes
 import androidx.fragment.app.Fragment
 import androidx.viewbinding.ViewBinding
-import com.base.mvvm.core.utilities.dialog.BaseDialog
+import com.nbgsoftware.utilities.dialog.BaseDialog
 
 /**
  * Author: William Giang Nguyen | 8/7/2022

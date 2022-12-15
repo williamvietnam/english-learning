@@ -1,11 +1,10 @@
-package com.base.mvvm.core.utilities.dialog
+package com.nbgsoftware.utilities.dialog
 
 import android.app.AlertDialog
 import android.content.Context
 import android.content.DialogInterface
 import android.widget.TextView
 import androidx.annotation.StringRes
-import com.base.mvvm.R
 
 /**
  * Author: William Giang Nguyen | 8/7/2022
@@ -144,13 +143,13 @@ class BaseDialog {
         if (!isShown) {
             dialog = builder.create()
             dialog.setCanceledOnTouchOutside(false)
-            dialog.window?.setBackgroundDrawableResource(R.drawable.bg_alert_dialog_custom)
+//            dialog.window?.setBackgroundDrawableResource(R.drawable.bg_alert_dialog_custom)
             dialog.show()
             forceShown()
-            val textSize = dialog.context.resources.getDimension(R.dimen.text_size_18)
-            dialog.findViewById<TextView>(android.R.id.message).textSize = textSize
-            dialog.getButton(DialogInterface.BUTTON_POSITIVE).textSize = textSize
-            dialog.getButton(DialogInterface.BUTTON_NEGATIVE).textSize = textSize
+//            val textSize = dialog.context.resources.getDimension(R.dimen.text_size_18)
+//            dialog.findViewById<TextView>(android.R.id.message).textSize = textSize
+//            dialog.getButton(DialogInterface.BUTTON_POSITIVE).textSize = textSize
+//            dialog.getButton(DialogInterface.BUTTON_NEGATIVE).textSize = textSize
         }
     }
 

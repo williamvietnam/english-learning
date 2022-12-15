@@ -1,12 +1,12 @@
-package com.base.mvvm.core.utilities
+package com.nbgsoftware.utilities
 
 import android.content.Context
 import android.text.TextUtils
 import android.util.Patterns
-import com.base.mvvm.core.utilities.EdtState.EDT_EMPTY
-import com.base.mvvm.core.utilities.EdtState.EDT_LENGTH_INVALID
-import com.base.mvvm.core.utilities.EdtState.EDT_NOT_HALFWIDTH_OR_DIGIT
-import com.base.mvvm.core.utilities.EdtState.SUCCESS
+import com.nbgsoftware.utilities.EdtState.EDT_EMPTY
+import com.nbgsoftware.utilities.EdtState.EDT_LENGTH_INVALID
+import com.nbgsoftware.utilities.EdtState.EDT_NOT_HALFWIDTH_OR_DIGIT
+import com.nbgsoftware.utilities.EdtState.SUCCESS
 import java.net.URLDecoder
 import java.security.MessageDigest
 import java.util.regex.Pattern
