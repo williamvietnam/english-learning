@@ -1,5 +1,7 @@
 #### PRESENT SIMPLE TENSE
 
+[(See more)]()
+
 **I. Structure:**
 
 (+) S + V(s/es) + O | S + am/is/are + adj/noun/adv
@@ -10,9 +12,23 @@
 
 **II. Use:**
 
+- Hiện tại đơn dùng để diễn đạt những hành động thường xuyên diễn ra ở thời điểm hiện tại
+  (thường đc dùng vs các trạng từ chỉ tần suất: always, usually, often, sometimes, seldom/rarely, scarcely, never,
+  very week, on Mondays, twice a year,... )
+- Diễn đạt những hành động theo thói quen
+- Diễn tả những hành động luôn luôn đúng, mang tính bản chất
+- Diễn tả chân lý không thể phủ nhận được, sự thật hiển nhiển
+
 **III. Examples:**
 
+- I often go to my company by car
+- Dogs bark | My family go to bed at 10:00PM
+- It doesn't usually rain in winter
+- The Sun rises in the East and sets in the West
+
 #### PRESENT CONTINUE TENSE
+
+[(See more)]()
 
 **I. Structure:**
 
@@ -23,10 +39,19 @@
 (?) Am/Is/Are + S + V-ing + O?
 
 **II. Use:**
+Diễn tả một hành động xảy ra tại thời điểm nói.
+
+(Thường đi vs các trạng từ: now, right now, at the moment, currently, presently, at present, for the time bing,...)
 
 **III. Examples:**
 
+- It's raining now.
+- He is proposing her at the moment
+- I'm not wearing a coat as it isn't cold
+
 #### PRESENT PERFECT TENSE
+
+[(See more)]()
 
 **I. Structure:**
 
@@ -38,9 +63,20 @@
 
 **II. Use:**
 
+Diễn tả hành động bắt đầu trong quá khứ, kéo dài tới hiện tại và có thể tiếp tục ở tương lai
+
+Thường đi cùng các phó từ: just, already, recently, lately, never...before, ever, yet, since, for,
+so far = up to now = until now = up to present = up to this moment = until this time = tính đến bây gờ,...
+
 **III. Examples:**
 
+- I have learnt english since 2017
+- Have you done your exercise already?
+- I have never been to London before.
+
 #### PRESENT PERFECT CONTINUE TENSE
+
+[(See more)]()
 
 **I. Structure:**
 
@@ -52,11 +88,21 @@
 
 **II. Use:**
 
+- diễn tả một hành động bắt đầu trong quá khứ, kéo dài tới hiện tại và có thể tiếp tục ở tương lai **nhưng nhấn mạnh vào
+  tính liên tục, tiếp diễn của hành động**.
+
+  (Cách dùng này thường phải có các cụm từ chỉ thời gian đi kèm để cho thấy tính liên tục của hành động)
+
+- Hiện tại hoàn thành tiếp diễn và hiện tại hoàn thành có thể dùng thay thế lẫn nhau.
+- Có một số động từ ko đc dùng ở tiếp diễn (tra google) --> khi đó thường đổi sang dùng thì hiện tại hoàn thành.
+
 **III. Examples:**
 
 <br>
 
 #### PAST SIMPLE TENSE
+
+[(See more)]()
 
 **I. Structure:**
 
@@ -72,6 +118,8 @@
 
 #### PAST CONTINUE TENSE
 
+[(See more)]()
+
 **I. Structure:**
 
 (+) S + were/was + V-ing + O
@@ -86,6 +134,8 @@
 
 #### PAST PERFECT TENSE
 
+[(See more)]()
+
 **I. Structure:**
 
 (+) S + had + V3/Ved + O
@@ -99,6 +149,8 @@
 **III. Examples:**
 
 #### PAST PERFECT CONTINUE TENSE
+
+[(See more)]()
 
 **I. Structure:**
 
@@ -117,6 +169,8 @@
 
 #### FUTURE SIMPLE TENSE
 
+[(See more)]()
+
 **I. Structure:**
 
 (+) S + will/shall + V + O
@@ -130,6 +184,8 @@
 **III. Examples:**
 
 #### FUTURE CONTINUE TENSE
+
+[(See more)]()
 
 **I. Structure:**
 
@@ -145,6 +201,8 @@
 
 #### FUTURE PERFECT TENSE
 
+[(See more)]()
+
 **I. Structure:**
 
 (+) S + will/shall + have + V3/Ved + O
@@ -158,6 +216,8 @@
 **III. Examples:**
 
 #### FUTURE PERFECT CONTINUE TENSE
+
+[(See more)]()
 
 **I. Structure:**
 
