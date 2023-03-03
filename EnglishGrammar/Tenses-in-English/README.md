@@ -1,6 +1,6 @@
 #### PRESENT SIMPLE TENSE
 
-<a href="./PresentSimpleTense.md">See detail</a>
+<a href="./PresentSimpleTense">See detail</a>
 
 **I. Structure:**
 
@@ -28,7 +28,7 @@
 
 #### PRESENT CONTINUE TENSE
 
-<a href="./PresentContinueTense.md">See detail</a>
+<a href="./PresentContinueTense">See detail</a>
 
 **I. Structure:**
 
@@ -51,7 +51,7 @@ Diễn tả một hành động xảy ra tại thời điểm nói.
 
 #### PRESENT PERFECT TENSE
 
-<a href="./PresentPerfectTense.md">See detail</a>
+<a href="./PresentPerfectTense">See detail</a>
 
 **I. Structure:**
 
@@ -76,7 +76,7 @@ so far = up to now = until now = up to present = up to this moment = until this 
 
 #### PRESENT PERFECT CONTINUE TENSE
 
-<a href="./PresentPerfectContinueTense.md">See detail</a>
+<a href="./PresentPerfectContinueTense">See detail</a>
 
 **I. Structure:**
 
@@ -102,7 +102,7 @@ so far = up to now = until now = up to present = up to this moment = until this 
 
 #### PAST SIMPLE TENSE
 
-<a href="./PastSimpleTense.md">See detail</a>
+<a href="./PastSimpleTense">See detail</a>
 
 **I. Structure:**
 
@@ -118,7 +118,7 @@ so far = up to now = until now = up to present = up to this moment = until this 
 
 #### PAST CONTINUE TENSE
 
-<a href="./PastContinueTense.md">See detail</a>
+<a href="./PastContinueTense">See detail</a>
 
 **I. Structure:**
 
@@ -134,7 +134,7 @@ so far = up to now = until now = up to present = up to this moment = until this 
 
 #### PAST PERFECT TENSE
 
-<a href="./PastPerfectTense.md">See detail</a>
+<a href="./PastPerfectTense">See detail</a>
 
 **I. Structure:**
 
@@ -150,7 +150,7 @@ so far = up to now = until now = up to present = up to this moment = until this 
 
 #### PAST PERFECT CONTINUE TENSE
 
-<a href="./PastPerfectContinueTense.md">See detail</a>
+<a href="./PastPerfectContinueTense">See detail</a>
 
 **I. Structure:**
 
@@ -169,7 +169,7 @@ so far = up to now = until now = up to present = up to this moment = until this 
 
 #### FUTURE SIMPLE TENSE
 
-<a href="./FutureSimpleTense.md">See detail</a>
+<a href="./FutureSimpleTense">See detail</a>
 
 **I. Structure:**
 
@@ -185,7 +185,7 @@ so far = up to now = until now = up to present = up to this moment = until this 
 
 #### FUTURE CONTINUE TENSE
 
-<a href="./FutureContinueTense.md">See detail</a>
+<a href="./FutureContinueTense">See detail</a>
 
 **I. Structure:**
 
@@ -201,7 +201,7 @@ so far = up to now = until now = up to present = up to this moment = until this 
 
 #### FUTURE PERFECT TENSE
 
-<a href="./FuturePerfectTense.md">See detail</a>
+<a href="./FuturePerfectTense">See detail</a>
 
 **I. Structure:**
 
@@ -217,7 +217,7 @@ so far = up to now = until now = up to present = up to this moment = until this 
 
 #### FUTURE PERFECT CONTINUE TENSE
 
-<a href="./FuturePerfectContinueTense.md">See detail</a>
+<a href="./FuturePerfectContinueTense">See detail</a>
 
 **I. Structure:**
 
