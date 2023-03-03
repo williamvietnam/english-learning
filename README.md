@@ -1,6 +1,11 @@
+```text
+Author: Nguyễn Bằng Giang
+From: Hanoi, Vietnam
+```
+
 ### Grammar
 
-<a href="./EnglishGrammar/Parts-of-Speech/README.md" title="Parts of Speech">
+<a href="./EnglishGrammar/Parts-of-Speech" title="Parts of Speech">
     Parts of Speech
 </a>
 
@@ -35,7 +40,7 @@
 13. Future Perfect Continue Tense
 
 <br>
-<a href="./EnglishGrammar/Sentences/Sentences/Sentences.md" title="Sentences">
+<a href="./EnglishGrammar/Sentences/Sentences" title="Sentences">
 Sentences
 </a>
 
@@ -48,7 +53,7 @@ Sentences
 - Exclamatory sentence (Câu cảm thán)
 
 <br>
-<a href="./EnglishGrammar/Sentences/ConditionalSentences/ConditionalSentences.md" title="ConditionalSentences">
+<a href="./EnglishGrammar/Sentences/ConditionalSentences" title="ConditionalSentences">
 Conditional sentences
 </a>
 
@@ -58,7 +63,7 @@ Conditional sentences
 - Mixed condition
 
 <br>
-<a href="./EnglishGrammar/Sentences/IndirectSpeech/IndirectSpeech.md" title="IndirectSpeech">
+<a href="./EnglishGrammar/Sentences/IndirectSpeech" title="IndirectSpeech">
 Indirect Speech
 </a>
 
@@ -66,7 +71,7 @@ Indirect Speech
 - Indirect speech (Lời nói gián tiếp)
 
 <br>
-<a href="./EnglishGrammar/Sentences/PassiveSentences/PassiveSentences.md" title="PassiveSentences">
+<a href="./EnglishGrammar/Sentences/PassiveSentences" title="PassiveSentences">
 Passive Sentences
 </a>
 
