@@ -1,6 +1,6 @@
 #### PRESENT SIMPLE TENSE
 
-[(See more)]()
+<a href="./PresentSimpleTense">See detail</a>
 
 **I. Structure:**
 
@@ -28,7 +28,7 @@
 
 #### PRESENT CONTINUE TENSE
 
-[(See more)]()
+<a href="./PresentContinueTense">See detail</a>
 
 **I. Structure:**
 
@@ -51,7 +51,7 @@ Diễn tả một hành động xảy ra tại thời điểm nói.
 
 #### PRESENT PERFECT TENSE
 
-[(See more)]()
+<a href="./PresentPerfectTense">See detail</a>
 
 **I. Structure:**
 
@@ -76,7 +76,7 @@ so far = up to now = until now = up to present = up to this moment = until this 
 
 #### PRESENT PERFECT CONTINUE TENSE
 
-[(See more)]()
+<a href="./PresentPerfectContinueTense">See detail</a>
 
 **I. Structure:**
 
